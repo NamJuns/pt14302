@@ -8,10 +8,12 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { SlideComponent } from './slide/slide.component';
 import { CategoryComponent } from './category/category.component';
 import { ProductComponent } from './product/product.component';
+import { AddProductComponent } from './add-product/add-product.component';
+import { AddproductComponent } from './addproduct/addproduct.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, ProductListComponent, SlideComponent, CategoryComponent, ProductComponent ],
+  declarations: [ AppComponent, HelloComponent, ProductListComponent, SlideComponent, CategoryComponent, ProductComponent, AddProductComponent, AddproductComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
